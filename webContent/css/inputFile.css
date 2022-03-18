@@ -1,0 +1,63 @@
+/* bootstrap-tagsinput.css file - add in local */
+
+
+
+
+ .file-wrapper{
+     width:50%;
+     margin:auto;
+     height:100vh;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+ .upload-btn-wrapper{
+     position: relative;
+     overflow: hidden;
+     display: inline-block;
+     cursor: pointer;
+ }
+ .upload-file{
+     border:2px dashed #eee;
+     color:#9b9b9b;
+     background-color: white;
+     width:250px;
+     height:60px;
+     border-radius: 8px;
+     font-size:8px;
+     cursor: pointer;
+ }
+ .upload-btn-wrapper input[type=file]{
+     width:100%;
+     position: absolute;
+     left:0;
+     right:0;
+     top:0;
+     opacity: 0;
+     cursor: pointer;
+     min-height: 200px;
+ }
+ .success{
+     display:none;
+ }
+ .success i{
+     font-size:20px;
+     margin-left:6px;
+     margin-top:8px;
+     color:#00b665;
+ }
+ .font-50{
+     font-size:30px;
+ }
+ .d-block{
+     display: block;
+ }
+ .btn .upload-file{
+     font-size:10px;
+ }
+ .upload-btn{
+     display: block;
+     font-size:11px;
+     color:#00b665;
+ }
+ 
